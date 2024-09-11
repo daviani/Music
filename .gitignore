@@ -1,0 +1,51 @@
+# Fichiers et dossiers générés par Visual Studio
+.vscode/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Fichiers spécifiques à .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.csproj.user
+appsettings*.json
+
+# Certificats
+*.crt
+*.key
+
+# Fichiers de logs
+*.log
+
+# Node.js / Angular
+node_modules/
+dist/
+coverage/
+
+# Fichiers du système
+.DS_Store
+Thumbs.db
+*.log
+
+# Environnement JetBrains Rider
+.idea/
+*.iml
+.idea_modules/
+
+# Exclure les fichiers npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers spécifiques à Mac
+.DS_Store
+
+# Autres fichiers et dossiers à ignorer
+*.lock
+*.pid
+*.seed
+*.cover

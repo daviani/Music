@@ -1,0 +1,16 @@
+{
+  "name": "musicapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start-api\" \"npm run start-web\"",
+    "start-api": "cd MusicAPI && dotnet watch run",
+    "start-web": "cd MusicWEB && ng serve --open",
+    "install-deps": "cd MusicAPI && dotnet restore && cd ../MusicWEB && npm install"
+  },  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
